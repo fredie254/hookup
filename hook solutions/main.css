@@ -1,0 +1,260 @@
+            body {
+            height: 100%;
+            width: 100%;
+            margin: auto;
+            padding: 0;
+            background-color: white;
+        }
+        
+        .header {
+            border-radius: 2px;
+            background: url("./images/wallpaper.jpg");
+            height: 220px;
+            width: auto;
+        }
+        
+        .nav_bar {
+            margin-top: 20px;
+            text-align: left;
+            background-color: darkgray;
+            border-radius: 10px;
+        }
+        
+        .nav_bar ul li {
+            width: 15%;
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+            display: inline-flex;
+        }
+        
+        .nav_bar ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        
+        .nav_bar ul li a :hover {
+            border-radius: 20px;
+            color: aqua;
+        }
+        
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        .footer {
+            font-size: 20px;
+            font-family: "Times New Roman";
+            border-radius: 10px;
+            background: burlywood;
+            display: flex;
+        }
+        /*end of global variables*/
+        /*index/homepage products*/
+        /*index/homepage products /cctv*/
+        
+        .new_back {
+            background: url("./images/homebackground.jpeg");
+        }
+        
+        .product {
+            margin-top: 20px;
+            align-items: flex-start;
+            padding-right: 50px 100px;
+            width: 25%;
+            background-color: cornsilk;
+            border-color: turquoise;
+            border-radius: 10px;
+        }
+        /*class frame is a global variable accessed by all images index/homepage products*/
+        
+        .frame img {
+            width: 180px;
+            height: 150px;
+            border-radius: 5px;
+        }
+        
+        .frame {
+            width: 180px;
+            height: 250px;
+        }
+        
+        .productDetail {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .product {
+            width: 25%px;
+            margin-right: 5px;
+            margin-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 5px;
+        }
+        /*index/homepage products etr*/
+        /*index/homepage products/Viop*/
+        /*contact page*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        
+        .beautify {
+            background: url("./images/tech.jpg");
+        }
+        
+        .contact {
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .content {
+            font-style: normal;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            max-width: 850px;
+            text-align: center;
+            background-color: aliceblue;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 10px;
+        }
+        
+        .contact .content h3 {
+            font-size: 50px;
+            font-weight: 500;
+            color: bisque;
+            background-color: blue;
+        }
+        
+        .contact .content p {
+            color: black;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        
+        section .container {
+            position: relative;
+            min-width: 1100px;
+            min-height: 550px;
+            display: flex;
+            z-index: 1000;
+        }
+        
+        .container .contactInfo {
+            width: 35%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            background-color: white;
+        }
+        
+        .container .contactInfo .box {
+            position: relative;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .container .contactInfo .box .icon {
+            min-width: 60px;
+            height: 60px;
+            padding-right: 20px;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            border-radius: 40px;
+        }
+        
+        .container .contactInfo .box .icon img {
+            padding-right: 2px;
+            margin-left: 16px;
+            margin-right: 1px;
+        }
+        
+        .container .contactInfo .box .text {
+            display: flex;
+            margin-left: 10px;
+            font-size: 16px;
+            color: black;
+            flex-direction: column;
+        }
+        
+        .container .contactInfo .box .text h4 {
+            color: darkgreen;
+        }
+        /* .contactForm {
+            width: 300px;
+            padding: 70px 50px;
+            margin-top: 0px;
+            margin-left: 800px;
+            margin-bottom: 10px;
+            background-color: darkgray;
+            flex-direction: row;
+        }
+        
+        .contactForm .inputBox {
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .contactForm .inputBox input,
+        .contactForm .inputBox textarea {
+            width: 100%;
+            padding: 5px;
+            font-size: 16px;
+            margin: 10px;
+            border: none;
+            border-bottom: seagreen;
+            outline: none;
+            resize: none;
+        }
+        
+        .contactForm .button {
+            width: 80px;
+            background: darkcyan;
+            color: lightseagreen;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 30px;
+        }*/
+        
+        @media (max-width: 990px) {
+            .nav_bar ul li {
+                padding: 50px;
+                min-width: 50px;
+                flex-direction: column;
+            }
+            .contact {
+                padding: 50px;
+                min-width: 50px;
+            }
+            .container {
+                padding: 50px;
+                min-width: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+            /* .productDetail,
+            .product {
+                padding: 50px;
+                min-width: 50px;
+                display: flex;
+            }
+        }
